@@ -19,6 +19,7 @@
            <div id="midCol">אתר אוהדי הפועל מרמורק</div>
            <div id="rightCol"> <asp:Label ID ="message" runat="server"  Text=""> </asp:Label></div></div>
         <div id="content">    
+            <div id="errmsg"></div>
        <form id="singIn" runat="server" onsubmit="return CheckSignInForm(singIn)" method="post" >     
             <table>
                 <tr>
@@ -28,20 +29,20 @@
                 <tr>
                     <td>דוא"ל:</td>
                     <td><input type="text"  id="lEmail" name="email"/></td>
-                    <td><input type="text" id="mEmail" style="display:none;" disabled="disabled" /></td>
+                    <td><input type="text" id="mEmail" " disabled="disabled" /></td>
                 </tr>
                 <tr>
                     <td>סיסמא:</td>
                     <td> <input type="password" id="lPassword" name="password"/></td>
-                    <td><input type="text" id="mPassword" style="display:none;" disabled="disabled" /></td>
+                    <td><input type="text" id="mPassword"  disabled="disabled" /></td>
                 </tr>
                 <tr>
-                 <td><input id="sendButton" name="submit" type="submit" value="לסיום ההרשמה" /></td>
+                 <td><input id="sendButton" name="submit" type="submit" value="להתחברות" /></td>
                     <td>  <input type="reset" value="לנסות מחדש"/></td>
                 </tr>
             </table>
     </form></div>
-                    <div id="footer">תרפריט תחתון במידת הצורך</div>
+                    <div id="red"><img src="https://upload.wikimedia.org/wikipedia/he/thumb/e/ea/Hapoel_Marmurek_Haim_Logo.png/200px-Hapoel_Marmurek_Haim_Logo.png" /></div>
      
       </div>
 

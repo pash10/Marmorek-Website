@@ -2,8 +2,6 @@
 
 <!DOCTYPE html>
 
-<!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>דף ראשי</title>
@@ -16,21 +14,41 @@
             <a href="login.aspx">כניסה</a>/<a href="singUp.aspx">רישום</a>
            </div>
            <div id="midCol">אתר אוהדי הפועל מרמורק</div>
-           <div id="rightCol"> שלום אורח</div></div>
-          <div id="nav"><table>
+           <div id="rightCol"><a href="statistics.aspx">לדף הסטסטיקה</a></div></div>
+        
+        <div id="content">
+        
+       
+            <h1>מי אנחנו? </h1>
+    <p>
+        <span>הפועל מרמורק חיים רחובות </span> היא קבוצת כדורגל ישראלית משכונת מרמורק ברחובות, המשחקת בליגה א'.<br />
+        מגרשה הביתי של הקבוצה, הממוקם בשכונה ומכיל כ-800 מקומות, נקרא "איצטוני",<br />
+        על שם נתנאל (טוני) שרעבי, שחקן העבר של הקבוצה
+    </p>
+    <div id="red"><img src="https://upload.wikimedia.org/wikipedia/he/thumb/e/ea/Hapoel_Marmurek_Haim_Logo.png/200px-Hapoel_Marmurek_Haim_Logo.png" /></div>
+              
+   
+    <table>
         <tr>
-            <td>תפריט לאתר</td>
+            <th>
+                <h2>קישורים חיצונים:</h2>
+            </th>
         </tr>
-         <tr>
-            <td>
-                  <a href="index.aspx">העמוד הראשי</a>
-                  <a href="WebForm2.aspx">עמוד לרשומים</a>
-             </td>
-        </tr>
-    </table></div>
-        <div id="content">כאן יופיע התוכן המרכזי</div>
-         <div id="footer">תרפריט תחתון במידת הצורך</div>
+        <tr>
+            <th>
+               <a href="http://www.hapoel-marmorek.co.il/"><div id="linkA">אתר האינטרנט הרשמי של הפועל מרמורק</div></a>
+            </th>
+            
+            <th >
+               <a href="http://football.org.il/clubs/club/?club_id=2211"><div id="linkB">הפועל מרמורק באתר ההתאחדות לכדורגל בישראל</div></a>
+            </th>
+           </tr>
+    
+    </table>
+        
+   
       </div>
+        </div>
      
   
   

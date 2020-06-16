@@ -33,7 +33,7 @@ namespace website
 
                 if (Helper.IsExist(fileName, checkIfEmailExsiet))
                 {
-                    errorMessage = "שם המתמש " + " '" + email + "' " + "כבר קיים במערכת ";
+                    errorMessage = "איימל " + " '" + email + "' " + "כבר קיים במערכת ";
                     message.Text = errorMessage;
                     message.Visible = true;
                 }
@@ -42,7 +42,7 @@ namespace website
                     string sqlInsert = "insert into UserTable(fName,lName,password,email)" + "values('" + fName + "', '" + lName + "' , '" + password + "'," + "'" + email + "')";
                     Helper.DoQuery(fileName, sqlInsert);
               
-                    Response.Redirect("members.aspx");
+                    Response.Redirect("index.aspx");
                     Response.End();
                 }
             }
