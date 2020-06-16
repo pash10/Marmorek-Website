@@ -48,7 +48,7 @@ div {
     float: left;
 }
 
-#header #message {
+#header #rightCol {
     width: 22%;
     height: 80px;
     float: right;
