@@ -16,7 +16,7 @@
                <a href="index.aspx">לדף הראשי</a>
                </div>
           <div id="midCol">אתר אוהדי הפועל מרמורק</div>
-           <div id="rightCol"> <asp:Label ID ="message" runat="server" Text=""> </asp:Label></div></div>
+           <div id ="rightCol"> <asp:Label ID ="message" runat="server" Text=""> </asp:Label></div>
         <div id="content">
             
             <form id="singUp" runat="server" onsubmit="return CheckSignUpForm(singUp)" method="post">
