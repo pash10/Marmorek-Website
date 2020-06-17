@@ -18,7 +18,7 @@ div {
 
 #container {
     background-color: #99ccff;
-    height: 670px;
+    height: 1000px;
 }
 
 #header {
@@ -33,7 +33,8 @@ div {
 
 #content {
     background-color: #ff6600;
-    height: 400px;
+    text-align: center;
+    height: 10000px;
 }
 
 #header #leftCol {
@@ -51,7 +52,7 @@ div {
 #header #rightCol {
     width: 22%;
     height: 80px;
-    float: right;
+    float: left;
 }
 
 
@@ -59,3 +60,60 @@ div {
     background-color: #336699;
     height: 50px;
 }
+
+p {
+    color: white;
+    float: right;
+}
+
+
+h2 {
+    color: white;
+}
+
+
+table {
+    border: solid 1px white;
+    width: 50%;
+}
+
+th {
+    height: 10px;
+}
+
+
+h1 {
+    color: white;
+    text-align :center;
+}
+
+p {
+    color: white;
+    float: right;
+}
+
+span {
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
+table {
+   
+    width: 50%;
+}
+
+th {
+    height: 10px;
+}
+
+a {
+    color: white;
+}
+
+
+ 
+
+
