@@ -1,4 +1,4 @@
-﻿console.log("godo");
+﻿
 
 
 function CheckSignInForm(singIn) {

@@ -35,7 +35,7 @@ namespace website
 
                 if (CheckUser == false)
                 {
-                    erorMessege = "שם המשתמש לא קיים במערכת";
+                    erorMessege = "האיימל לא קיים במערכת";
                     message.Text = erorMessege;
                     message.Visible = true;
                 }
@@ -46,7 +46,7 @@ namespace website
                 }
                 if (CheckPassword == false)
                 {
-                    erorMessege = "הסיסמא לא קיימת במערכת";
+                    erorMessege = "סיסמא לא נכונה";
                     message.Text = erorMessege;
                     message.Visible = true;
                 }
@@ -59,7 +59,7 @@ namespace website
                     }
                     else
                     {
-                        erorMessege = "שם המשתמש לא מתואם עם הסיסמא";
+                        erorMessege = "איימל לא מתואם עם הסיסמא";
                     }
 
                 }

@@ -131,12 +131,14 @@
     <Content Include="Content\bootstrap.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Index.css" />
     <Content Include="logo.png" />
     <Content Include="members.aspx" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="index.aspx" />
     <Content Include="login.aspx" />
     <Content Include="mainPage.css" />
+    <Content Include="saveTicket.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -167,10 +169,10 @@
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="singIn.js" />
     <Content Include="singUp.aspx" />
-    <Content Include="..\..\..\..\Desktop\singUp.js">
-      <Link>singUp.js</Link>
-    </Content>
+    <Content Include="singUp.js" />
     <Content Include="Site.Master" />
+    <Content Include="statistics.aspx" />
+    <Content Include="statistics.css" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -239,6 +241,13 @@
     </Compile>
     <Compile Include="Site.Mobile.Master.designer.cs">
       <DependentUpon>Site.Mobile.Master</DependentUpon>
+    </Compile>
+    <Compile Include="statistics.aspx.cs">
+      <DependentUpon>statistics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="statistics.aspx.designer.cs">
+      <DependentUpon>statistics.aspx</DependentUpon>
     </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
